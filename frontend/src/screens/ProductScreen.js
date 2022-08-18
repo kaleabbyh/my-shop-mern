@@ -25,7 +25,7 @@ const ProductScreen = () => {
 
   useEffect(() => {
     dispatch(listProductDetails(id))
-  }, [dispatch])
+  }, [dispatch, id])
 
   return (
     <>
